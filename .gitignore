@@ -1,0 +1,5 @@
+Lib/
+__pycache__/
+deletme.py
+project_notes.txt
+pyvenv.cfg
