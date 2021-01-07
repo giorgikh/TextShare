@@ -29,9 +29,11 @@
     </div>
 </body>
 <script>
-    var link = '{{ link|safe }}';
-    console.log(link)
-    document.getElementById("generatedLink").value = link;
+    var data = '{{ data|safe }}';
+    var base_url = '{{ base_url|safe }}';
+    console.log(data)
+    console.log(base_url)
+    document.getElementById("generatedLink").value = base_url;
 </script>
 
 </html>
